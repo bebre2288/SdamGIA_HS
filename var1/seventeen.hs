@@ -17,5 +17,5 @@ unwrap input = map read $ lines input
 
 main :: IO ()
 main = do
-    fileData <- readFile "17.txt"
+    fileData <- readFile "data/17.txt"
     print $ show $ solve $ unwrap fileData
