@@ -14,9 +14,16 @@ var1
  | fifteen.hs     #(done)
  | sixteen.hs     #(done)
  | seventeen.hs   #(done)
+<<<<<<< HEAD
  | twentyThree.hs #(done)
  | twentyFour.hs  #(done)
  | twentyFive.hs  #(done)
  | twentySix.hs   #(done)
+=======
+ | twentyThree.hs #(not implemented)
+ | twentyFour.hs  #(not implemented)
+ | twentyFive.hs  #(not implemented)
+ | twentySix.hs   #(not implemented)
+>>>>>>> f34ff242b9762827c352392d55fbdd82bfaf141b
  | twentySeven.hs #(not implemented)
 ```
