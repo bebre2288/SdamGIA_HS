@@ -13,3 +13,6 @@ step2 words = [ word |
 
 result :: Int
 result = length $ step2 step1
+
+main :: IO ()
+main = print result

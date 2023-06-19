@@ -26,5 +26,8 @@ transform3 n = maybe 0 (*1) (bintodec  (transform2 n))
 transform4 :: Int -> Int
 transform4 n = n - (transform3 n)
 
-solve :: Int
-solve = length $ group $ sort [transform4 i | i <- [10..1000]]
+result :: Int
+result = length $ group $ sort [transform4 i | i <- [10..1000]]
+
+main :: IO ()
+main = print result

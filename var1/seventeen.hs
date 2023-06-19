@@ -15,7 +15,10 @@ mediumAverage arr = sum ct `div` length ct
 unwrap :: String -> [Int]
 unwrap input = map read $ lines input
 
+result :: String -> (Int, Int)
+result input = solve $ unwrap $ input
+
 main :: IO ()
 main = do
     fileData <- readFile "data/17.txt"
-    print $ show $ solve $ unwrap fileData
+    print $ result fileData

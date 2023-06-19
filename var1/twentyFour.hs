@@ -1,10 +1,3 @@
--- chairgamingnc: @makesuey watch the primeagen on yt, vid title json as code i tink
-
--- X Y Z
--- !not XZZY!
--- length
---
--- Input -> Count Lengths -> Print Max Lenght
 import Data.List
 
 isXZZY :: (Char, Char, Char, Char) -> Bool

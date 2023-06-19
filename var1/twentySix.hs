@@ -11,7 +11,10 @@ solveH dat = [  (a+b) `div` 2 | (a,i) <- zip filtered [0..],
 unwrap :: String -> [Int]
 unwrap input = map read $ lines input
 
+result :: String -> (Int, Int)
+result input = solve $ unwrap input
+
 main :: IO ()
 main = do
     fileData <- readFile "data/26.txt"
-    print $ show $ solve $ unwrap fileData
+    print $ result fileData

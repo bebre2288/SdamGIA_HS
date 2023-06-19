@@ -14,4 +14,4 @@ result = b-a
     where (a,b) = head $ reverse $ sortBy (\(a1,b1) (a2,b2) -> compare (b1-a1) (b2-a2)) recfoo
 
 main :: IO ()
-main = do putStrLn $ show result
+main = print result

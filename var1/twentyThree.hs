@@ -10,3 +10,6 @@ f a b
 
 result :: Int
 result = f 3 10 * f 10 12
+
+main :: IO ()
+main = print result
